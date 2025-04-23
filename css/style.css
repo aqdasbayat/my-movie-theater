@@ -1,0 +1,80 @@
+h1 {font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-block-start: 10px;
+    color: rgb(165, 14, 140);
+    text-align: center;
+    text-shadow: 1px 2px 3px rgb(239, 211, 98), 1px 2px 3px;
+    text-transform: capitalize;
+    }
+h2 {color: rgb(224, 37, 174);
+    text-shadow: 1px 2px 3px rgb(237, 145, 41), 1px 1px 3px;
+    text-align: center;
+    text-decoration: double;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+hr {
+    color: 1px 1px 3px rgb(147, 26, 115);
+    size: 40px;  
+}
+p {
+    background-color: rgb(204, 179, 227);
+}
+.video-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #e2d7e0;
+    padding: 20px;
+    border-radius: 20px;
+    animation: blink 1s infinite;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  @keyframes blink {
+    0% {
+        box-shadow:  0 0 10px 2px red;
+    }
+    25% {
+        box-shadow:  0 0 10px 2px blue;
+    }
+    50% {
+        box-shadow:  0 0 10px 2px lime;
+    }
+    75% {
+        box-shadow:  0 0 10px 2px yellow;
+    }
+    100% {
+        box-shadow:  0 0 10px 2px red;
+    } 
+  }
+body {
+    background-color: rgb(226, 222, 230);
+    margin: 20px;
+}
+.rating {
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    height: 10px;   
+}
+.star {
+    font-size: 30px;
+    color: rgb(153, 221, 250);
+    cursor: pointer; 
+}
+.star:hover,
+.star.seleced {
+    color: rgb(255, 0, 195)
+}
+.rating-output {
+    margin-top: 10px;
+    text-align: center;
+}
+.container {
+    display: flex; 
+}
